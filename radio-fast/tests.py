@@ -10,6 +10,7 @@ def test_master():
         result = m.exchange(send_msg)
         if result is not None:
             print(result.i0)
+            print("Just my $0.02 worth")
         else:
             print('Timeout')
         send_msg.i0 += 1
